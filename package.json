@@ -1,0 +1,38 @@
+{
+  "name": "react-web-movie",
+  "version": "1.0.0",
+  "description": "1. 完成 Header 区域，使用的是 Mint-UI 中的Header组件\r 2. 制作底部的 Tabbar 区域，使用的是 MUI 的 Tabbar.html\r  + 在制作 购物车 小图标的时候，操作会相对多一些：\r  + 先把 扩展图标的 css 样式，拷贝到 项目中\r  + 拷贝 扩展字体库 ttf 文件，到项目中\r  + 为 购物车 小图标 ，添加 如下样式 `mui-icon mui-icon-extra mui-icon-extra-cart`\r 3. 要在 中间区域放置一个 router-view 来展示路由匹配到的组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --hot --contentBase src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "fibers": "^5.0.0",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "antd": "^4.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
