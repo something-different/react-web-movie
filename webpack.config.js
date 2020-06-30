@@ -16,8 +16,11 @@ module.exports={
                 presets:["env", "react",]
             }},
             {test: /\.css$/, use:['style-loader','css-loader']},//modules只有在css-loader才能用，启动模块化
+            
             //运行cnpm i url-loader file-loader -D
             {test:/\.(ttf|eot|svg|woff|woff2)$/,loader:'url-loader'},
+            {test:/\.(jpg|png|gif|jpeg|bmp)$/,loader:'url-loader?',options:{esModule:false,limit:10240}},
+           
             //运行cnpm i sass-loader node-sass sass fibers-D
             {test:/\.scss$/,use: [
                 {loader:'style-loader'}, 

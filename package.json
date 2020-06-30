@@ -34,5 +34,13 @@
     "antd": "^4.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/something-different/react-web-movie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/something-different/react-web-movie/issues"
+  },
+  "homepage": "https://github.com/something-different/react-web-movie#readme"
 }
